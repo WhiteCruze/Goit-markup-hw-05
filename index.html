@@ -16,44 +16,47 @@
 </head>
 
 <body>
-<header class="page-header">
-    <div class="container header-container">
-        <nav class="header-nav">
-            <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a class="nav-link current" href="./index.html">Studio</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a class="logo-link" href="./index.html">Web<span class="part">Studio</span></a>
+                <ul class="page-nav">
+                    <li class="page-nav-item">
+                        <a class="nav-link nav-link-hover" href="./index.html">Studio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <address class="contacts">
-            <ul class="contacts-list">
-                <li class="contacts-item">
-                    <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="contacts-item">
-                    <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
-    </div>
-</header>
-
+            <address class="address">
+                <ul class="nav-address">
+                    <li>
+                        <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </header>
 
     <main class="main">
-        <section class="title-container">
+        <section class="section-header">
             <div class="container hero-image">
                 <h1 class="page-title">Effective Solutions for Your Business</h1>
-                <button class="order-button" type="button">Order Service</button>
+                <button class="button" type="button">Order Service</button>
             </div>
         </section>
 
         <section class="section-services">
             <div class="container">
-                <h2 class="visually-hidden">Advantage</h2>
+                <h2 class="visually-hidden">Benefits</h2>
 
                 <ul class="services-list">
                     <li class="services-list-items">
@@ -63,7 +66,7 @@
                             </svg>
                         </div>
                         <h3 class="title">Strategy</h3>
-                        <p class="section-text">
+                        <p class="title-text">
                             Our goal is to identify the business problem to walk away with
                             the perfect and creative solution.
                         </p>
@@ -76,7 +79,7 @@
                             </svg>
                         </div>
                         <h3 class="title">Punctuality</h3>
-                        <p class="section-text">
+                        <p class="title-text">
                             Bring the key message to the brand's audience for the best price
                             within the shortest possible time.
                         </p>
@@ -89,7 +92,7 @@
                             </svg>
                         </div>
                         <h3 class="title">Diligence</h3>
-                        <p class="section-text">
+                        <p class="title-text">
                             Research and confirm brands that present the strongest digital
                             growth opportunities and minimize risk.
                         </p>
@@ -102,7 +105,7 @@
                             </svg>
                         </div>
                         <h3 class="title">Technologies</h3>
-                        <p class="section-text">
+                        <p class="title-text">
                             Design practice focused on digital experiences. We bring forth a
                             deep passion for problem-solving.
                         </p>
@@ -111,19 +114,16 @@
             </div>
         </section>
 
-<!--Наші співробітники-->
-
         <section class="section-team">
             <div class="container">
                 <h2 class="section-title-team">Our Team</h2>
 
                 <ul class="section-team-list">
                     <li class="team-list">
-                        <img class="image" src="./images/team-card-1.jpg" alt="Mark Guerrero, Product Designer">
-
+                        <img alt="mark-guerrero" class="image" src="./images/team-card-1.jpg" width="264" />
                         <div class="team-container">
                             <h3 class="title-team">Mark Guerrero</h3>
-                            <p class="section-text-team">Product Designer</p>
+                            <p class="title-text-team">Product Designer</p>
 
                             <ul class="team-socials-list">
                                 <li class="team-socials-item">
@@ -159,11 +159,10 @@
                     </li>
 
                     <li class="team-list">
-                    <img class="image" src="./images/team-card-2.jpg" alt="Tom Ford, Frontend Developer">
-
+                        <img alt="Tom Ford, Frontend Developer" class="image" src="./images/team-card-2.jpg" width="264" />
                         <div class="team-container">
                             <h3 class="title-team">Tom Ford</h3>
-                            <p class="section-text-team">Frontend Developer</p>
+                            <p class="title-text-team">Frontend Developer</p>
 
                             <ul class="team-socials-list">
                                 <li class="team-socials-item">
@@ -199,11 +198,10 @@
                     </li>
 
                     <li class="team-list">
-                        <img class="image" src="./images/team-card-3.jpg" alt="Camila Garcia>, Marketing" width="264">
-
+                        <img alt="Camila Garcia, Marketing" class="image" src="./images/team-card-3.jpg" width="264" />
                         <div class="team-container">
                             <h3 class="title-team">Camila Garcia</h3>
-                            <p class="section-text-team">Marketing</p>
+                            <p class="title-text-team">Marketing</p>
 
                             <ul class="team-socials-list">
                                 <li class="team-socials-item">
@@ -238,11 +236,10 @@
                         </div>
                     </li>
                     <li class="team-list">
-                    <img class="image" src="./images/team-card-4.jpg" alt="Daniel Wilson, UI Designer" width="264">
-
+                        <img alt="Daniel Wilson, UI Designer" class="image" src="./images/team-card-4.jpg" width="264" />
                         <div class="team-container">
                             <h3 class="title-team">Daniel Wilson</h3>
-                            <p class="section-text-team">UI Designer</p>
+                            <p class="title-text-team">UI Designer</p>
 
                             <ul class="team-socials-list">
                                 <li class="team-socials-item">
@@ -279,9 +276,7 @@
                 </ul>
             </div>
         </section>
-
 <!--Наші роботи-->
-
         <section class="section-portfolio">
             <div class="container portfolio">
                 <h2 class="section-title-portfolio">Our Portfolio</h2>
@@ -289,8 +284,8 @@
                 <ul class="portfolio-list">
                     <li class="portfolio-list-item">
                         <div class="portfolio-container">
-                            <img class="image" src="./images/portfolio-card-1.jpg" alt="Bank application" width="360">
-
+                            <img alt="banking app image" class="image" src="./images/portfolio-card-1.jpg"
+                                width="360" />
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -299,13 +294,13 @@
                         </div>
                         <div class="portfolio-text">
                             <h3 class="title-portfolio">Banking App</h3>
-                            <p class="section-text-portfolio">App</p>
+                            <p class="title-text-portfolio">App</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
                         <div class="portfolio-container">
-                            <img class="image" src="./images/portfolio-card-2.jpg" alt="Cashless Payment" width="360">
-
+                            <img alt="Cashless payment" class="image" src="./images/portfolio-card-2.jpg"
+                                width="360" />
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -314,13 +309,13 @@
                         </div>
                         <div class="portfolio-text">
                             <h3 class="title-portfolio">Cashless Payment</h3>
-                            <p class="section-text-portfolio">Marketing</p>
+                            <p class="title-text-portfolio">Marketing</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
                         <div class="portfolio-container">
-                            <img class="image" src="./images/portfolio-card-3.jpg" alt="Meditation App" width="360">
-
+                            <img alt="Meditation app" class="image" src="./images/portfolio-card-3.jpg"
+                                width="360" />
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -329,13 +324,13 @@
                         </div>
                         <div class="portfolio-text">
                             <h3 class="title-portfolio">Meditation App</h3>
-                            <p class="section-text-portfolio">App</p>
+                            <p class="title-text-portfolio">App</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
                         <div class="portfolio-container">
-                        <img class="image" src="./images/portfolio-card-4.jpg" alt="Taxi Service" width="360">
-
+                            <img alt="Taxi service" class="image" src="./images/portfolio-card-4.jpg"
+                                width="360" />
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -344,13 +339,13 @@
                         </div>
                         <div class="portfolio-text">
                             <h3 class="title-portfolio">Taxi Service</h3>
-                            <p class="section-text-portfolio">Marketing</p>
+                            <p class="title-text-portfolio">Marketing</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
                         <div class="portfolio-container">
-                        <img class="image" src="./images/portfolio-card-5.jpg" alt="Screen Illustrations" width="360">
-
+                            <img alt="Screen illustrations" class="image"
+                                src="./images/portfolio-card-5.jpg" width="360" />
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -359,13 +354,13 @@
                         </div>
                         <div class="portfolio-text">
                             <h3 class="title-portfolio">Screen Illustrations</h3>
-                            <p class="section-text-portfolio">Design</p>
+                            <p class="title-text-portfolio">Design</p>
                         </div>
                     </li>
                     <li class="portfolio-list-item">
                         <div class="portfolio-container">
-                        <img class="image" src="./images/portfolio-card-6.jpg" alt="Online Courses" width="360">
-
+                            <img alt="Online courses" class="image" src="./images/portfolio-card-6.jpg"
+                                width="360" />
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -374,7 +369,7 @@
                         </div>
                         <div class="portfolio-text">
                             <h3 class="title-portfolio">Online Courses</h3>
-                            <p class="section-text-portfolio">Marketing</p>
+                            <p class="title-text-portfolio">Marketing</p>
                         </div>
                     </li>
                 </ul>
@@ -385,8 +380,8 @@
     <footer class="footer-section">
         <div class="container footer-container">
             <div class="logo-container">
-                <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
-                <p class="section-text">
+                <a class="logo-link" href="./index.html">Web<span class="part">Studio</span></a>
+                <p class="title-text">
                     Increase the flow of customers and sales for your business with
                     digital marketing & growth solutions.
                 </p>
@@ -424,8 +419,87 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="footer-form-wrap">
+                <p class="subscribe-title">Subscribe</p>
+                <form class="subscribe-form" name="subscribe-form">
+                    <label class="subscribe-label" for="user-subscribe">
+                        <input class="subscribe-input" type="email" placeholder="E-mail" id="user-subscribe"
+                            name="user-subscribe" />
+                    </label>
+                    <button class="subscribe-button" type="submit">
+                        Subscribe
+                        <svg width="24" height="24" class="icon-send">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
-</body>
 
+    <div class="modal-overlay is-open">
+        <div class="modal">
+            <button class="close-button" type="button">
+                <svg class="icon-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="form-title">Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+                <div class="label-wrap">
+                    <label class="input-label" for="user-name">Name</label>
+                    <div class="input-wrap">
+                        <input class="form-input" id="user-name" type="text" name="user_name" />
+                        <svg class="form-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="label-wrap">
+                    <label class="input-label" for="user-phone">Phone</label>
+                    <div class="input-wrap">
+                        <input class="form-input" id="user-phone" type="tel" name="user_phone" />
+                        <svg class="form-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="label-wrap">
+                    <label class="input-label" for="user-email">Email</label>
+
+                    <div class="input-wrap">
+                        <input class="form-input" id="user-email" type="email" name="user_email" />
+                        <svg class="form-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="textarea-wrap">
+                    <label class="input-label" for="user-comment">Comment</label>
+                    <textarea class="textarea" id="user-comment" name="user-comment"
+                        placeholder="Text input"></textarea>
+                </div>
+
+                <div class="checkbox-wrap">
+                    <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
+                    <label class="ckeckbox-label" for="user-privacy">
+                        <span class="check-span">
+                            <svg class="check-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a class="link" target="_blank" href="">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button class="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
 </html>
