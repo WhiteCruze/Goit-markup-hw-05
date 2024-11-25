@@ -404,7 +404,7 @@ textarea {
 
 .page-nav-item {
   position: relative;
-  padding: 24px 0;
+ 
   color: #404bbf;
 } 
 
@@ -887,4 +887,5 @@ textarea {
 
 .icon-send {
   margin-left: 16px;
+  fill: white;
 }
